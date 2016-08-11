@@ -1,2 +1,4 @@
 # note_book
-just a regular note_book repository
+just a magical note_book repository...
+
+
