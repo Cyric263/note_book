@@ -10,24 +10,24 @@
  git add .
 
 === 4. Commit the files you've staged
- git commit -m "First commit"
+ sudo git commit -m "First commit"
 
 === 5. Copy the Repository URL
 
 === 6. Add remote repository where local repository is pushed to
- git remote add origin #remote repository URL
- git remote -v # verifies the new remote url
+ sudo git remote add origin #remote repository URL
+ sudo git remote -v # verifies the new remote url
 
 === 7. Pushes Changes
- git push origin master
+ sudo git push origin master
 
 === 8. If Error Featch and Merge
- git fetch origin
- git merge origin #YOUR_BRANCH_NAME 
+ sudo git fetch origin
+ sudo git merge origin #YOUR_BRANCH_NAME 
  # Merge updates online with local work.
 
 === 9. Or use git pull to before both at once
- git pull origin Your_Branch_Name example: origin master
+ sudo git pull origin Your_Branch_Name example: origin master
 
 === 10. HOW TO DELETE ITEM OFF GITHUB
 ==== Remove Item from Repository Only
