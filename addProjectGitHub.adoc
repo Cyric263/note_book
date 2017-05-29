@@ -4,7 +4,7 @@
 
 === 2. Create and go to new working folder for GitHub
  name it the name of your repository
- git init # to initialize the directory
+ sudo git init # to initialize the directory
 
 === 3. Add your new files
  git add .
