@@ -1,7 +1,7 @@
 == Notebook README.adoc
 
 === addProjectGitHub.adoc
-GitHub Quick Notes for Terminal
+GitHub Instructions
 
 === zorin_install_instructions.tar.gz
 Zorin 12.1 Linux Install Instructions 
