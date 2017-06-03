@@ -3,6 +3,9 @@
 === addProjectGitHub.adoc
 GitHub Instructions
 
+=== vimbasics.adoc
+Vim Instructions - the very basics
+
 === zorin_install_instructions.tar.gz
 Zorin 12.1 Linux Install Instructions 
 
