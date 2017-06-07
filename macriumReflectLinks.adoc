@@ -1,0 +1,18 @@
+
+
+
+=== Macrium Reflect - Learn Image Backup For Windows 10
+
+1. Macrium Reflect backup image tutorial by Leo 
+https://more.askleo.com/creating-an-image-with-macrium-free/
+
+2. Macrium Reflect creating rescue media tutorial 
+https://www.youtube.com/watch?v=eRBSSJnYSKM
+
+3. Macrium Reflect imaging/cloning program. Make sure you have it save your image to an external hard drive or another internal drive. Also go into settings and makes sure it auto verifies the image.
+http://www.macrium.com/reflectfree.aspx
+
+
+
+
+
