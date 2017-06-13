@@ -7,7 +7,7 @@
  sudo git init # to initialize the directory
 
 === 3. Add your new files
- git add .
+ sudo git add .
 
 === 4. Commit the files you've staged
  sudo git commit -m "First commit"
@@ -31,18 +31,18 @@
 
 === 10. HOW TO DELETE ITEM OFF GITHUB
 ==== Remove Item from Repository Only
- git rm --cached file1.txt
- git push origin branch_name  #master
+ sudo git rm --cached file1.txt
+ sudo git push origin branch_name  #master
 
 === 11. Git RM for both local and github
- git rm file1.txt
- git commit -m "remove file1.txt"
- git push origin master
+ sudo git rm file1.txt
+ sudo git commit -m "remove file1.txt"
+ sudo git push origin master
 
 = Quick Notes:  
 
 === Update the Local Repository Files from GitHub
-* git pull origin master
+* sudo git pull origin master
 
 
 
