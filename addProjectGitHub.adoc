@@ -39,6 +39,15 @@
  git commit -m "remove file1.txt"
  git push origin master
 
+= Quick Notes:  
+
+=== Update the Local Repository Files from GitHub
+* git pull origin master
+
+
+
+
+
 
 
 
