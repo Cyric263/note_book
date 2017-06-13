@@ -48,6 +48,7 @@
 * If the GitHub repo has seen new commits pushed to it, while you were working locally, I would advice for:
 
 git pull --rebase
+
 git push
 
 
