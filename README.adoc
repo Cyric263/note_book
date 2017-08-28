@@ -6,7 +6,7 @@ GitHub Instructions
 === macriumReflectLinks.adoc
 Macrium Reflect Instructions for Windows 10 Image Backup
 
-=== vimbasics0817.tar
+=== vimbasics0817.tar.gz
 Vim Instructions - beginner basics - added quickreference_vim page
 
 === zorin_install_instructions.tar.gz
