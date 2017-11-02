@@ -19,11 +19,11 @@
  sudo git remote -v # verifies the new remote url
 
 === 7. Pushes Changes
- sudo git push origin master or (git push origin/master) 
+ sudo git push origin master
 
 === 8. If Error Featch and Merge
  sudo git fetch origin
- sudo git merge origin #YOUR_BRANCH_NAME  or (git merge origin/master)
+ sudo git merge origin #YOUR_BRANCH_NAME 
  # Merge updates online with local work.
 
 === 9. Or use git pull to before both at once
