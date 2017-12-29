@@ -1,0 +1,49 @@
+
+=== clonezillaBackup.adoc
+
+=== Image Backup with CloneZILLA Ver. 2.5.0-5 - Nov 11th, 2017
+
+* Clonezilla lets you take a picture of your computer so if it gets a virus, loses sound, or gets changed in any way you can restore it. 
+
+* (Clonezilla works with GNU/Linux, Win10 , and Intel-based Mac OS and others... includes 32-bit (x86) or 64-bit (x86-64) machines.)
+
+=== Clonezilla in simple steps:
+
+1. Download and install Etcher. https://etcher.io/
+
+2. Download Clonezilla 2.5.0-5 iso image from Distrowatch.com. (2nd selection dated 2016-11-22) https://distrowatch.com/?newsid=09645
+
+3. First!  REMEMBER! *Create and name your folder* that will hold your Clonezilla Image on your external hard drive. Examples: /windowsdesktopnov11-2017 or /zorinlaptopnov11-2017 .
+
+4. Turn off the computer, insert your Clonezilla USB and reboot to load clonezilla. (Note: Your boot order in bios may need to be selected to boot USB first for the USB to load.)
+
+5. Further help with Clonezilla menu selections below:
+
+* Clonezilla Backup - Creating and Saving the Image http://clonezilla.org/show-live-doc-content.php?topic=clonezilla-live/doc/01_Save_disk_image
+
+* Clonezilla Backup - Restoring the Image http://clonezilla.org/show-live-doc-content.php?topic=clonezilla-live/doc/02_Restore_disk_image  Note: When Restoring Remember to go directly to the name of the backup in the folder selection.
+
+=== OTHER BACKUPS...
+
+
+=== Usb Image Tool - Nov 19th, 2017
+
+USB Image Tool is a Windows 10 program that lets you backup your USB Sticks!
+
+Step 1: Download USB IMAGE TOOL from Major Geeks:...(to be continued)
+
+
+
+=== Backing Up Regular Files and Folders - Nov 23th, 2017
+
+For easy backing up of regular files and folders (cross platform) - SnapBackup
+http://snapbackup.org
+
+
+
+
+
+
+
+
+
