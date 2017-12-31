@@ -1,0 +1,150 @@
+
+
+=== Title: "Learn CSS Grid in 5 Minutes: A Quick tutorial on the future of website layouts.
+
+=== By: Per Harald Borgen
+
+=== Dated: Nov 26 
+
+
+=== Main Concepts: The Very Basics of CSS Grid
+
+
+* "CSS grid module is the most powerful and easiest tool for creating Grid Layouts.
+
+=== "Your first grid layout
+
+Grid Layout has 2 Main Parts:
+
+1. The *wrapper* (parent)
+
+2. The *items* (children).
+
+The wrapper is the actual grid adn the items are the content inside the grid.
+
+_Heres the markup for a wrapper:_
+
+----
+
+<div class="wrapper">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>
+  <div>4</div>
+  <div>5</div>
+  <div>6</div>
+</div>
+
+----
+
+* 1. To turn our wrapper div into a grid, we simply give it a display of grid:
+
+----
+
+/* 6 divs ontop of each other */
+.wrapper {
+    display: grid;
+}
+
+----
+
+=== "Columns and rows
+
+* 2. Define the columns and rows
+
+Three columns and two rows will use:
+
+A. grid-template-row
+B. grid-template-column
+
+----
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 50px 50px;
+}
+
+----
+
+"As we’ve written three values for grid-template-columns, we’ll get three columns. We’ll get two rows, as we’ve specified two values for the grid-template-rows.
+
+
+----
+
+// Second Example:
+.wrapper {
+    display: grid;
+    grid-template-columns: 200px 50px 100px;
+    grid-template-rows: 100px 30px;
+}
+
+----
+
+=== "Placing the Items
+
+The next thing you’ll need to learn is how to place items on the grid. This is where you get superpowers, as it makes it dead simple to create layouts.
+
+----
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+}
+----
+
+_Notice, we only see a 3x2 grid on the page, while we defined it as a 3x3 grid. That’s because we only have six items to fill the grid with. If we had three more, then the lowest row would be filled as well._
+
+* To position and resize the items we’ll target them and use the grid-columnand grid-row properties:
+
+----
+
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+----
+
+What we’re saying here is that we want item1 to start on the first grid line and end on the fourth column line. In other words, it’ll take up the entire row. Here’s how that’ll play out on the screen:
+
+Notice that we’re now using all the rows in the grid. When we made the first item take up the entire first row, it pushed the rest of the items down.
+
+Finally, I’d like to show a simpler way of writing the syntax above:
+
+----
+
+.item1 {
+    grid-column: 1 / 4;
+}
+
+----
+
+To make sure you’ve understood this concept properly, let’s rearrange the items a little bit.
+
+----
+
+
+----
+
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.item3 {
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.item4 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+----
+
+
+
+
