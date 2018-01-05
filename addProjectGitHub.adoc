@@ -44,7 +44,8 @@
 === Update the Local Repository Files from GitHub
 * sudo git pull origin master
 
-
+=== Pushing to Github
+* sudo git push origin master
 
 
 
