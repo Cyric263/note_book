@@ -1,0 +1,41 @@
+=== Refresher On How to Copy, Cut and Paste In Vim using Visual Selection
+
+1. Put Curse whwere you want to start cutting.
+
+2. Press esc, v to select the characters and move to the end of what you want to cut.
+
+3. Hit d to cut or y to copy.
+
+4. Move to where you would like to paste.
+
+5. Press P to paste before cursor or p to paste after.
+
+
+=== Practicing my Copy Command!
+
+1. Put Curse whwere you want to start cutting.
+
+3. Hit d to cut or y to copy.
+
+5. Press P to paste before cursor or p to paste after.
+
+
+=== Color Examples
+
+* White, Grey, Red on black background
+
+* Black on White with highlights of redbackground and white text or black background and white text.
+
+=== Lets Try Doing One of My Favorite Links...
+
+* Cut and paste example finally remembered!
+
+Original:
+
+<a href="http://acim.org/" target="_blank">A Course In Miracles </a></br> 
+
+Cute and Delete this one:
+<center><a href= target="_blank">ACIM</a></li></center></br>
+
+
+
