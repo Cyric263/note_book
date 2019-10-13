@@ -1,0 +1,25 @@
+
+
+
+=== tarcommands.adoc
+
+----
+
+// Create Tar File
+tar -cf archive_file_name.tar *.*
+
+// See Contents of Tar
+tar -tf archive.tar
+
+// Extract Tar
+tar -xf archive_file_name.tar
+----
+
+
+----
+
+// Deleting files and folders recursively
+rm -rf folderName 
+
+----
+
