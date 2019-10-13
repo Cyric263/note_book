@@ -2,7 +2,7 @@
 
 
 === addProjectGitHub.adoc
-GitHub Instructions - Uploading to GitHub from linux terminal
+GitHub Instructions for linux terminal
 
 === clonezillaBackup.adoc
 Clonezilla Instructions for Backup Image to External Drive
@@ -10,14 +10,11 @@ Clonezilla Instructions for Backup Image to External Drive
 === macriumReflectLinks.adoc
 Macrium Reflect Instructions for Windows 10 Image Backup
 
-=== tmux_vim_mesh.adoc
-Instructions to setup vim and tmux together
-
-=== vimbasics0817.tar.gz
-Vim Instructions - beginner basics - added quickreference_vim page
+=== vimbasics.tar
+Vim Beginner Basic Instructions
 
 === vimrc_tmuxvim_dec2017.adoc
-backup of my .vimrc
+backup of my .vimrc - an old .vimrc
 
 === zorin_install_instructions.tar.gz
 Zorin 12.1 Linux Install Instructions 
