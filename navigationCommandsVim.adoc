@@ -1,0 +1,155 @@
+
+=== Extra-Navigating Commands For Vim
+
+
+
+=== Creating Splits
+
+----
+
+// Creating a new blank split
+:vnew  (vertical)
+:new   (horizontal)
+
+
+// Create Vertical Split
+:vsplit
+
+// Create Horizontal Split
+:split
+
+----
+
+
+=== Exiting Splits
+
+----
+
+// How to close the current split
+Control + w, c
+
+// How to quit all split screens 
+:qa 
+
+// Close all split screens except current
+Control + w, o
+
+// or
+
+:only
+
+// To open a different file in  new split 
+:vsplit filename.adoc
+
+----
+
+
+=== Moving Between Splits
+
+----
+
+// Moving Up, Down, Left, or Right a Split
+Control W + up or down or left or right arrow.
+
+// or
+
+Control W, (h, j, k, l )
+
+
+// Resize Height of Split! 60rows
+:res 60
+
+// Change the Width of Current Window
+:vertical resize 140
+
+
+// Change all splits to equal dimensions
+esc, control+w , =   
+
+// Change Max Height
+control+w, _  (underscore)
+
+// Change Max Width
+control+w, |
+
+----
+
+
+=== Copy and Paste In VIm
+
+----
+
+1. Hit your esc key and go to where you want to start the copy
+2. Hit (V) to copy the entire line or lower case (v) to copy by character.
+3. Next is (d) to cut or (y) to copy.
+4. Move to where you want to paste and hit lower case (p) to paste after.
+
+----
+
+=== Deleting Words and Sentences
+
+----
+
+1. "esc+ dd" deletes a line.</br>
+2. "dw" deletes from the cursor position to the start of the next word</br>
+3. "daw" deletes the word under the cursor and the space after or before it.</br>
+4. "p" puts back deleted item.</br>
+
+----
+
+
+=== Updating Vim in Linux Terminal
+
+----
+
+// Updating to latest vim looks like this:
+sudo add-apt-repository ppa:jonathonf/vim
+sudo apt update
+sudo apt install vim
+
+----
+
+=== Undo and Redo
+
+----
+
+1. esc, u = undo</br>
+2. esc, ctrl + r = redo</br>
+
+----
+
+=== Terminal And Back
+
+----
+
+// GoTo Terminal
+Control+Z 
+
+// Return to Vim Document
+fs 1 
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
