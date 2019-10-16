@@ -1,0 +1,107 @@
+
+
+
+
+=== Setting Up Vim for Windows Command Prompt and Powershell?
+
+=== Filename.adoc
+
+----
+
+// Where is the .vimrc in Windows 10?
+// The .vimrc is stored here: C:/Users/<ME>/_vimrc
+
+// Make the backspace work in gvim in windows 10
+set backspace=indent,eol,start
+
+// How to save to a specfic folder in Vim & Win10?
+// w command supports path with filename.   
+:w C:\filepath\filename.adoc
+
+// How to get Vim to stop making temp-sawp files everywhere?
+// Add to the _vimrc
+set noswapfile
+
+// How to set VIM to work on command-promopt?
+A fresh install... and check the .bat box... seems to work.
+
+
+// how to set VIM to work on power-shell?
+Turns out if you click that .bat box on install of Vim, it appears to work
+on power-shell as well using vim filename.adoc
+
+
+----
+
+----
+
+
+// Command Prompt Basics
+https://www.agnosticdev.com/blog-entry/windows/vim-windows-command-prompt
+
+// Remove files and folders recursively:
+rmdir c:\test /s /q 
+
+// Clean Bin:
+rd /s C:\$Recycle.bin
+
+
+----
+
+----
+
+
+// PowerShell Quick Basics
+
+1. Run poweshell as adminstrator in window10 (right click icon, run admin)
+
+
+// Updates Help
+Update-Help
+
+// Set Security
+Set-ExecutionPolicy Unrestricted
+
+// Delete files and folders from music back.
+rd -force -recurse C:\Users\Z\Music
+
+// Mirrorin a folder to another folder
+Robocopy D:\PowerShell\Original D:\Powershell\copy /mir
+
+// Extra options for retry and restart
+Robocopy sourceFolder desinationFolder /MIR /FFT /Z /AZ:H /W:5
+
+// Simple Example:
+C:\box2 C:\box3 /MIR
+
+
+// clear bin
+Clear-RecycleBin
+
+
+----
+
+
+
+
+----
+
+
+tar -cf archive_file_name.tar *.*
+
+// See Contents of Tar
+tar -tf archive.tar
+
+// Extract Tar
+tar -xf archive_file_name.tar
+
+
+----
+
+
+----
+
+// Deleting files and folders recursively
+rm -rf folderName 
+
+----
