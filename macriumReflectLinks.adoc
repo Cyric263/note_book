@@ -12,6 +12,9 @@ https://www.youtube.com/watch?v=eRBSSJnYSKM
 3. Macrium Reflect imaging/cloning program. Make sure you have it save your image to an external hard drive or another internal drive. Also go into settings and makes sure it auto verifies the image.
 http://www.macrium.com/reflectfree.aspx
 
+4. Detailed Tutorial on Macrium Reflect - How to Create and Restore a System Image Backup with Macrium Reflect - 
+https://www.tenforums.com/tutorials/61026-backup-restore-macrium-reflect.html
+
 
 
 
